@@ -17,4 +17,4 @@ config :logger, level: :warn
 #   hostname: "localhost",
 #   pool: Ecto.Adapters.SQL.Sandbox
 
-config :runur, :db, name: "mongo_test"
+config :test_mongo, :db, name: "mongo_test"

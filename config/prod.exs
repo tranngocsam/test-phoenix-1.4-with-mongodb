@@ -69,6 +69,6 @@ config :logger, level: :info
 # Finally import the config/prod.secret.exs which should be versioned
 # separately.
 
-config :runur, :db, name: "mongo"
+config :test_mongo, :db, name: "mongo"
 
 import_config "prod.secret.exs"

@@ -55,4 +55,4 @@ config :phoenix, :plug_init_mode, :runtime
 #   hostname: "localhost",
 #   pool_size: 10
 
-config :runur, :db, name: "mongo_dev"
+config :test_mongo, :db, name: "mongo_dev"
